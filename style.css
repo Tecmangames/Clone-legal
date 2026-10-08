@@ -2,10 +2,10 @@
 /*  MUDE A COR DE FUNDO AQUI (Missão 1.3)                */
 /* ===================================================== */
 :root {
-  --cor-fundo: #f7f2f1;
-  --cor-destaque: #4f46e5;
-  --cor-texto: #1f2937;
-  --cor-card: #ffffff;
+  --cor-fundo: #161313;
+  --cor-destaque: #be0909;
+  --cor-texto: #f8f8f8;
+  --cor-card: #470202;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -23,7 +23,7 @@ body {
 .hero { text-align: center; padding: 60px 20px; }
 .hero img {
   width: 150px; height: 150px; border-radius: 50%;
-  object-fit: cover; border: 4px solid var(--cor-destaque);
+  object-fit: cover; border: 4px soligid var(--cor-destaque);
 }
 .hero h1 { font-size: 2.5rem; margin-top: 20px; }
 .hero p { font-size: 1.2rem; color: var(--cor-destaque); }
